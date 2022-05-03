@@ -1,0 +1,67 @@
+.ex1 {
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.ex2 {
+    background-color: dimgrey;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.modelmenu {
+    visibility: hidden;
+}
+
+.back {
+    background-color: cornflowerblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    height: 5vw;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.ex3,
+.ex5,
+.ex6 {
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.round {
+    border: 1px solid dimgray;
+    border-radius: 500px;
+    height: 8vw;
+    margin-right: 20px;
+    margin-left: 30px;
+    background-color: dimgray;
+}
+
+.rectangle {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+ol>li {
+    list-style-type: decimal;
+}
+
+.bookList ol {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: brown;
+}
